@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.container {
+  display: flex;
+            text-align: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 20px;
+  display: flex;
+  height: 100vh;
+}
+.left, .right {
+  width: 40%;
+  padding: 40px;
+}
+.left {
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+}
+.moto {
+  font-style: italic;
+  margin-top: 10px;
+}
+.right input {
+  background-color: ;
+  display: block;
+  width: 80%;
+  height: 80%;
+  margin: 10px auto;
+  padding: 10px;
+}
+.right button {
+  background:burlywood;
+  margin: 10px auto;
+  padding: 10px 20px;
+  width: 90%;
+  display: block;
+}
+.social-icons img {
+  
+  width: 30px;
+  margin-right: 10px;
+}
+ 
+.profile-pic {
+  width: 120px;
+  border-radius: 50%;
+}
+.navbar {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.navbar a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover{
+   color: brown;
+}
+.logo-small {
+  width: 50px;
+  margin-right: 20px;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  padding: 20px;
+}
+.product-grid img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
+.product-grid:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 15px rgba(100, 5, 5, 0.4); /* Or your desired box-shadow color */
+}
+.product-grid a:{
+  color: aquamarine;
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+          }
+          .product-grid a:hover{
+              background-color: rgb(8, 188, 113);
+          }
+
+
+.footer-bar {
+  background-color: #ddd;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
